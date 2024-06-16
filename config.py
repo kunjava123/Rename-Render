@@ -23,9 +23,9 @@ DB_NAME = os.environ.get("DB_NAME", "cluster0")
 
 DB_URL = os.environ.get("DB_URL", "mongodb+srv://Dq:dq@cluster0.fuealiw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
-FLOOD = int(os.environ.get("FLOOD", "30"))
+FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "http://graph.org/file/ce1606aa4c1bc86939e6e.jpg")
+START_PIC = os.environ.get("START_PIC", "https://te.legra.ph/file/119729ea3cdce4fefb6a1.jpg")
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '1892771262').split()]
 
